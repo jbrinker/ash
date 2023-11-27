@@ -1,0 +1,6 @@
+@ASH.API_HostAddress = http://localhost:5150
+
+GET {{ASH.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

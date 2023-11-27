@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.API.Models", "ASH.API.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASH.API.Tests", "ASH.API.Tests\ASH.API.Tests.csproj", "{08DDF9B4-8BDE-4C7A-A448-8A8788E36ECD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C347E8DC-1700-4C70-9005-03B47962E907}"
+	ProjectSection(SolutionItems) = preProject
+		create_tables.sql = create_tables.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
